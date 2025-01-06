@@ -1,0 +1,30 @@
+{
+  "name": "phonebook-backend",
+  "version": "1.0.0",
+  "description": "Phonebook backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egba001/phonebook-backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend"
+  ],
+  "author": "Egba Nnaemeka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egba001/phonebook-backend/issues"
+  },
+  "homepage": "https://github.com/egba001/phonebook-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
